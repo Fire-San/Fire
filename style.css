@@ -1,0 +1,63 @@
+body {
+	color: black;
+}
+h1 {
+	border-bottom: 1px solid;
+	margin-bottom: 0;
+	padding-left: 250px;
+}
+
+#txt {
+	margin-left: 7em;
+	padding: 1px 0 100px 5%;
+	border-left: 1px solid;
+}
+
+div#menu {
+	float: left;
+	width: 7em;
+	margin: -1px 0 0 -1px;
+}
+
+div#menu ul {
+	margin: 0;
+	padding: 0;
+	width: 7em;
+}
+
+div#menu li {
+	position: relative;
+	list-style: none;
+	margin: 0;
+}
+
+div#menu li:hover {
+	background: red;
+}
+
+div#menu li.sous:hover {
+	background-color: blue;
+}
+
+div#menu li a {
+    color: black;
+	display: block;
+	padding: 0.25em 0 0.25em 0.5em;
+	text-decoration: none;
+	width: 6.5em;
+}
+
+div#menu>ul a {
+	width: auto;
+}
+
+div#menu ul ul {
+	position: absolute;
+	top: 0;
+	left: 7em;
+	display: none;
+}
+
+div#menu ul.base li.sous:hover ul.decale {
+	display: block;
+}
