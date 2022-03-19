@@ -35,6 +35,11 @@ body {
 .elev {
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
+	position: absolute;
+    left: 50%;
+    top: 17.4vh;
+    transform: translate(-50%, 0);
 }
 
 div#menu {
