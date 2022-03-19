@@ -11,6 +11,12 @@ body {
     justify-content: center;
 }
 
+.header img {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
 .txt {
 	display: flex;
 	align-items: center;
@@ -21,11 +27,34 @@ body {
     transform: translate(-50%, 0);
 }
 
+.arte {
+	display: flex;
+	justify-content: center;
+}
+
 div#menu {
 	float: left;
 	width: 7em;
 	margin: -1px 0 0 -1px;
 	border-right: 1px solid;
+}
+
+div#retour {
+	float: left;
+	width: 7em;
+	margin: -1px 0 0 -1px;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	border-left: 1px solid;
+}
+
+div#retour li.test {
+	position: relative;
+	list-style: none;
+}
+
+div#retour :hover {
+	background: red;
 }
 
 div#menu ul {
