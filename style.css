@@ -30,6 +30,17 @@ body {
 .arte {
 	display: flex;
 	justify-content: center;
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.elev {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 div#menu {
