@@ -9,25 +9,23 @@ body {
 .header h1 {
     display: flex;
     justify-content: center;
-	padding-left: 125px;
 }
 
 .txt {
 	display: flex;
-	justify-content: center;
-	border-left: 1px solid;
-}
-
-.img {
-	display: flex;
-	justify-content: center;
-	border-left: 1px solid;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+    left: 50%;
+    top: 10vh;
+    transform: translate(-50%, 0);
 }
 
 div#menu {
 	float: left;
 	width: 7em;
 	margin: -1px 0 0 -1px;
+	border-right: 1px solid;
 }
 
 div#menu ul {
