@@ -70,11 +70,6 @@ div#retour {
 	border-left: 1px solid;
 }
 
-div#retour li.test {
-	position: relative;
-	list-style: none;
-}
-
 div#retour :hover {
 	background: red;
 }
